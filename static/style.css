@@ -1,0 +1,287 @@
+/* body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f4f4f4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  background: white;
+  padding: 20px;
+  width: 400px;
+  border-radius: 10px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.chat-window {
+  height: 300px;
+  overflow-y: auto;
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  background-color: #fafafa;
+}
+
+.chat-window .user {
+  text-align: right;
+  margin: 10px 0;
+  color: #007BFF;
+}
+
+.chat-window .bot {
+  text-align: left;
+  margin: 10px 0;
+  color: #333;
+}
+
+#chatForm {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+#chatForm input,
+#chatForm button {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #aaa;
+  flex: 1;
+}
+
+#chatForm button {
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+#chatForm button:hover {
+  background-color: #0056b3;
+} */
+/* body {
+  background-color: #121212;
+  color: #fff;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  width: 90%;
+  max-width: 600px;
+  margin: auto;
+  margin-top: 50px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#chat-box {
+  background: #1f1f1f;
+  border-radius: 10px;
+  padding: 15px;
+  height: 400px;
+  overflow-y: auto;
+  margin-bottom: 10px;
+}
+
+.user-msg {
+  text-align: right;
+  color: #00bfff;
+  margin: 5px 0;
+}
+
+.bot-msg {
+  text-align: left;
+  color: #90ee90;
+  margin: 5px 0;
+}
+
+.input-area {
+  display: flex;
+  gap: 10px;
+}
+
+input {
+  flex-grow: 1;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+}
+
+button {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  background: #00bfff;
+  color: white;
+  cursor: pointer;
+} */
+/* body {
+  background: #111;
+  color: white;
+  font-family: sans-serif;
+  padding: 20px;
+}
+.container {
+  max-width: 800px;
+  margin: auto;
+}
+#chat-box {
+  background: #222;
+  border-radius: 10px;
+  padding: 15px;
+  height: 300px;
+  overflow-y: auto;
+  margin-bottom: 10px;
+}
+.user {
+  color: #0af;
+  margin-top: 5px;
+}
+.bot {
+  color: #0f0;
+  margin-top: 5px;
+}
+input, select, button {
+  padding: 10px;
+  margin: 5px;
+  border-radius: 5px;
+} */
+/* body {
+  background-color: #121212;
+  color: white;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.chat-container {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #1e1e1e;
+  border-radius: 8px;
+}
+
+.chat-window {
+  background: #2e2e2e;
+  padding: 15px;
+  height: 300px;
+  overflow-y: auto;
+  border-radius: 6px;
+  margin-bottom: 10px;
+}
+
+#message {
+  width: 75%;
+  padding: 10px;
+  border-radius: 4px;
+  border: none;
+}
+
+button {
+  padding: 10px 15px;
+  border: none;
+  background-color: #00bcd4;
+  color: white;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.user {
+  text-align: right;
+  color: #00bcd4;
+  margin-top: 10px;
+}
+
+.bot {
+  text-align: left;
+  color: #8bc34a;
+  margin-top: 10px;
+}
+
+#startContainer {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+#userDropdown {
+  padding: 10px;
+  border-radius: 4px;
+  width: 70%;
+} */
+body {
+  background-color: #121212;
+  color: white;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.chat-container {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #1e1e1e;
+  border-radius: 8px;
+}
+
+.chat-window {
+  background: #2e2e2e;
+  padding: 15px;
+  height: 300px;
+  overflow-y: auto;
+  border-radius: 6px;
+  margin-bottom: 10px;
+}
+
+#message {
+  width: 75%;
+  padding: 10px;
+  border-radius: 4px;
+  border: none;
+}
+
+button {
+  padding: 10px 15px;
+  border: none;
+  background-color: #00bcd4;
+  color: white;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.user {
+  text-align: right;
+  color: #00bcd4;
+  margin-top: 10px;
+}
+
+.bot {
+  text-align: left;
+  color: #8bc34a;
+  margin-top: 10px;
+}
+
+#startContainer {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+#userDropdown {
+  padding: 10px;
+  border-radius: 4px;
+  width: 70%;
+}

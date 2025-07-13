@@ -1,0 +1,7 @@
+echo ".env
+creds.json
+__pycache__/
+*.pyc
+.secretkey
+.vscode/
+" > .gitignore
